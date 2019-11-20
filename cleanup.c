@@ -14,5 +14,5 @@ void do_some_work() {
 
     pthread_cleanup_push(deallocate_buffer, temp_buffer);
 
-    pthread_cleanup_push(1);
+    pthread_cleanup_pop(1);
 }
