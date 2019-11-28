@@ -5,7 +5,7 @@
 void* thread_function (void* thread_arg)
 {
     fprintf(stdout, "child thread pid is %d\n", (int)getpid());
-    while(1);
+    //while(1);
 
 }
 
